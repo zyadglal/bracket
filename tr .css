@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bangers&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Comic+Relief:wght@400;700&family=Gabarito:wght@400..900&family=Nerko+One&family=PT+Serif+Caption:ital@0;1&family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Cascadia Mono", sans-serif, Arial,;
+}
+/* 
+colors : #0D0D0D (BLACK), #D9D9D9 (WHITE), #736E6E (GRAY), #F2F2F2 (LIGHT GRAY), #403D3E (DARK GRAY),
+ */
+ body{
+    width:100%;
+    background-color:#403D3E;
+    color: #D9D9D9;
+    font-size: 2em;    
+}
+
+.inputs{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inputs input{
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #F2F2F2;
+    color: #585456;
+    margin: 15px 5px;
+    background-color:#0D0D0D;
+}
+
+.price input{
+    width:33%;
+    display: inline-block;
+}
+
+.search-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+} 
+.search-options button{
+    width: 48%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #D9D9D9;
+    color: #403D3E;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.search-options button:hover{
+    background-color: #736E6E;
+    color: #D9D9D9;
+}
+.create{
+    width: 80%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #D9D9D9;
+    color: #403D3E;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.create:hover{
+    background-color: #736E6E;
+    color: #D9D9D9;
+}
+
+.total::before{
+    content: 'Total: ';
+}
+
+.table{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#403D3E ;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.table{
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0;
+    /* border: 1px solid #D9D9D9; */
+    background-color: #736E6E;
+    text-align: center;
+    text-transform:capitalize ;
+ /* border: 1px solid #D9D9D9; */
+}
+
+th,td{
+    padding: 7px;
+    /* border: 1px solid #D9D9D9; */
+    color: #F2F2F2;
+}
+@media (max-width: 600px) {
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bangers&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Comic+Relief:wght@400;700&family=Gabarito:wght@400..900&family=Nerko+One&family=PT+Serif+Caption:ital@0;1&family=Zen+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Cascadia Mono", sans-serif, Arial,;
+}
+/* 
+colors : #0D0D0D (BLACK), #D9D9D9 (WHITE), #736E6E (GRAY), #F2F2F2 (LIGHT GRAY), #403D3E (DARK GRAY),
+ */
+ body{
+    width:100%;
+    background-color:#403D3E;
+    color: #D9D9D9;
+    font-size: 2em;    
+}
+
+.inputs{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inputs input{
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #F2F2F2;
+    color: #585456;
+    margin: 15px 5px;
+    background-color:#0D0D0D;
+}
+
+.price input{
+    width:33%;
+    display: inline-block;
+}
+
+.search-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+} 
+.search-options button{
+    width: 48%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #D9D9D9;
+    color: #403D3E;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.search-options button:hover{
+    background-color: #736E6E;
+    color: #D9D9D9;
+}
+.create{
+    width: 80%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: #D9D9D9;
+    color: #403D3E;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.create:hover{
+    background-color: #736E6E;
+    color: #D9D9D9;
+}
+
+.total::before{
+    content: 'Total: ';
+}
+
+.table{
+    width: 100%;
+    margin: 0 auto;
+    background-color:#403D3E ;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.table{
+    border-collapse: collapse;
+    padding: 0px;
+    margin: 0;
+    /* border: 1px solid #D9D9D9; */
+    background-color: #736E6E;
+    text-align: center;
+    text-transform:capitalize ;
+ /* border: 1px solid #D9D9D9; */
+}
+
+th,td{
+    padding: 7px;
+    /* border: 1px solid #D9D9D9; */
+    color: #F2F2F2;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
